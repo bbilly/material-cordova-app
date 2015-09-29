@@ -1,0 +1,54 @@
+#content {
+    padding-top : 1em;
+}
+
+.demo-card-square {
+    margin : auto;
+}
+h2.mdl-card__title-text {
+    font-size : 18px;
+}
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+    background: url('../img/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.demo-card-image.mdl-card {
+    margin : auto;
+    width: 256px;
+    height: 256px;
+    background: url('../img/image_card.jpg') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.image2 {
+    background: url('../img/image_card2.jpg') center / cover!important;
+}
+
+.mdl-data-table {
+    margin : auto;
+}
+.form_user {
+    margin : auto;
+}
+
+.mdl-switch {
+    padding-bottom : 4em;
+}
+
+a {
+    color : inherit;
+}

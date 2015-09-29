@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <title>Cordova Material App Sample</title>
+        <link rel="stylesheet" href="./css/material.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="./css/global.css">
+    </head>
+    <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title"><a href="#">Mon Appli</a></span>
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+                    <span class="material-icons mdl-badge" data-badge="1">account_box</span>
+                </div>
+            </div>
+
+        </header>
+        <div class="mdl-layout__drawer">
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="#">Accueil</a>
+                <a class="mdl-navigation__link" href="#menu1">Liste utilisateurs</a>
+                <a class="mdl-navigation__link" href="#menu2">Ajouter utilisateur</a>
+                <a class="mdl-navigation__link" href="#menu3">Gallerie photos</a>
+                <a class="mdl-navigation__link" href="#menu4">Paramètres</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content" id="content" type="x-tmpl-mustache">
+        </main>
+    </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="./js/material.min.js"></script>
+        <script src="./js/jquery-1.11.3.min.js"></script>
+        <script src="./js/routing.js"></script>
+        <script src="./js/fastclick.js"></script>
+        <script src="./js/mustache.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
