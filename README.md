@@ -16,7 +16,6 @@ Cette appli comporte n'a pas usage à être utilisée car elle comporte des bugs
 ![](http://www.baptistebilly.com/img/github/material_app2.jpg)
 ![](http://www.baptistebilly.com/img/github/material_app4.jpg)
 ![](http://www.baptistebilly.com/img/github/material_app3.jpg)
-![](http://www.baptistebilly.com/img/github/material_app1.jpg)
 
 ## Téléchargements
 
