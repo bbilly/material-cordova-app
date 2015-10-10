@@ -19,4 +19,4 @@ Cette appli n'a pas usage à être utilisée car elle comporte des bugs et n'a p
 
 ## Téléchargements
 
-* APK accessible ici : 
+* APK accessible ici : http://dev.baptistebilly.com/material_prototype_cordova_app_1_0.apk
